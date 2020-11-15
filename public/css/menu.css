@@ -1,0 +1,48 @@
+#menu {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#menu #containerButtonMenu {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.btn-menu {
+    max-width: 100%;
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-menu:hover {
+    cursor: pointer;
+}
+
+.btn-menu .iconButton {
+    font-size: 1.8em;
+    color: #9e9e9e;
+}
+
+#menu-option-elements {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: -100%;
+    background-color: #FFF;
+}
+
+.btnAlignText {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #9e9e9e;
+    background-color: #FFF;
+    outline: none;
+}
